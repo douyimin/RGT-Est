@@ -1,3 +1,30 @@
+# -*- coding: utf-8 -*-
+"""
+RGT-Est: Learning Stratigraphically Consistent Relative Geologic Time
+from 3D Seismic Data via Sinusoidal Mapping.
+
+Authors:  Yimin Dou, Xinming Wu, Hui Gao, Zhengfa Bi
+Contact:  Xinming Wu <xinmwu@ustc.edu.cn>
+
+Copyright (c) 2026 Yimin Dou, Xinming Wu, Hui Gao, Zhengfa Bi.
+
+License
+-------
+Source code in this file is released under the MIT License.
+Pretrained model weights and datasets associated with this project
+(distributed via Zenodo and Baidu Netdisk) are released separately
+under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). See the LICENSE and LICENSE-DATA files in the repository
+root for the full terms.
+
+If you use this software, please cite:
+    Dou, Y., Wu, X., Gao, H., & Bi, Z. (2026).
+    Learning Stratigraphically Consistent Relative Geologic Time
+    from 3D Seismic Data via Sinusoidal Mapping.
+"""
+
+
+
 from functools import partial
 
 import torch
