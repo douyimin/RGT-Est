@@ -1,0 +1,22 @@
+# RGT-Est dependencies.
+#
+# Tested with Python 3.10+ on Linux with CUDA. For Windows / CPU-only setups,
+# install the matching torch wheel from https://pytorch.org/get-started/locally/
+# first, then run `pip install -r requirements.txt` to pick up the rest.
+
+# ---- Core: required for both inference and training ----
+numpy>=1.23
+scipy>=1.9
+torch>=2.0
+matplotlib>=3.6
+
+# ---- Inference / demo only ----
+# 3D seismic visualization. Use cigvis[viser] for the SSH-friendly web backend,
+# or cigvis[all] for everything including viser, plotly, and PyQt5.
+cigvis>=0.1
+
+# ---- Training only ----
+pytorch-lightning>=2.0
+lpips>=0.1.4
+einops>=0.6
+tensorboard>=2.10
