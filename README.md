@@ -76,13 +76,14 @@ See `demo/RGT-Est_demo.ipynb` and `demo/RGT-Est_horizConstra_demo.ipynb` for end
 ## Citation
 
 ```bibtex
-@article{dou2026rgtest,
-  title  = {Learning Stratigraphically Consistent Relative Geologic Time from 3D Seismic Data via Sinusoidal Mapping},
-  author = {Dou, Yimin and Wu, Xinming and Gao, Hui and Bi, Zhengfa},
-  year   = {2026}
+@article{dou2026learning,
+  title={Learning Stratigraphically Consistent Relative Geologic Time from 3D Seismic Data via Sinusoidal Mapping},
+  author={Dou, Yimin and Wu, Xinming and Gao, Hui and Bi, Zhengfa},
+  journal={arXiv preprint arXiv:2605.01273},
+  year={2026}
 }
 ```
 
 Correspondence: Xinming Wu — `xinmwu@ustc.edu.cn`.
 
-Released under CC BY 4.0.
+
