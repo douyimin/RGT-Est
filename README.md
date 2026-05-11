@@ -32,7 +32,9 @@ Trained on synthetic data and evaluated on field surveys with dense faulting, la
 4. **Systematic multi-scenario generalization evaluation.** We evaluate RGT-Est on multiple structurally complex field seismic datasets covering unconformities, densely faulted systems, steeply dipping structures, and strong structural superposition, substantially outperforming publicly available AI-based RGT estimation methods.
 
 ![Comparison with voxel-space regression](figures/03.jpg)
+
 Qualitative comparison of RGT estimation on field seismic volumes. From left to right, each group presents the input seismic volume, the result of DeepRGT$^\dagger$ (re-implementation), and the result of the proposed RGT-Est. For both methods, the displayed horizons are extracted as iso-surfaces from the estimated RGT fields and overlaid on the seismic volumes for visual comparison. The colored dashed boxes highlight challenging regions, including weak reflectors, slope structures, faulted zones, and laterally varying stratigraphy. RGT-Est better follows seismic reflectors and preserves more coherent stratigraphic ordering.
+
 ---
 
 ![Horizon-guided RGT](figures/04.jpg)
