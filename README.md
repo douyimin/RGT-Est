@@ -60,17 +60,7 @@ The data and pretrained model weights are released through the following mirrors
 
 Both mirrors contain identical contents, including the pretrained checkpoint `RGT-Est_CIG-Benchmark.pt` referenced in the inference snippet below.
 
----
-
-## Repository
-
-```
-RGT_Est/
-├── train.py          # Training entry point (PyTorch Lightning + DDP).
-├── framework/        # Generator, discriminator, losses, callbacks.
-├── seisDataset/      # Placeholder for the training dataset module.
-└── demo/             # Inference notebooks + RGT → horizon utilities.
-```
+--
 
 Quick inference:
 
