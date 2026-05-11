@@ -91,5 +91,19 @@ See `demo/RGT-Est_demo.ipynb` and `demo/RGT-Est_horizConstra_demo.ipynb` for end
 ```
 
 Correspondence: Xinming Wu — `xinmwu@ustc.edu.cn`.
+## License
 
+This repository is released under a dual-license scheme:
+
+- **Source code** (everything under `framework/`, `seisDataset/`, `demo/`,
+  and the training/inference scripts) is licensed under the
+  [MIT License](https://opensource.org/licenses/MIT).
+- **Data and pretrained model weights** distributed via Zenodo and
+  Baidu Netdisk are licensed under the
+  [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to use, modify, and redistribute the code, data, and weights —
+including for commercial purposes — provided that appropriate credit is given
+to the authors and the original publication is cited (see the Citation section above).
+The software and data are provided "as is", without warranty of any kind.
 
