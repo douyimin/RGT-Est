@@ -39,7 +39,7 @@ Trained on synthetic data and evaluated on field surveys with dense faulting, la
 
 ## Data & Pretrained Models
 
-The training/evaluation data and pretrained model weights are released through the following mirrors:
+The data and pretrained model weights are released through the following mirrors:
 
 - **Zenodo** (recommended for international users): <https://doi.org/10.5281/zenodo.20031941>
 - **Baidu Netdisk** (recommended for users in China): <https://pan.baidu.com/s/1Sgk4lNUpYpWK6h2t6nnlTQ> — access code: `s3u4`
