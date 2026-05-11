@@ -75,7 +75,7 @@ with torch.no_grad(), torch.autocast(device_type=device):
     rgt = model(nn.ReflectionPad3d(8)(x))[:, :, 8:-8, 8:-8, 8:-8]
 ```
 
-See `demo/RGT-Est_demo.ipynb` and `demo/RGT-Est_horizConstra_demo.ipynb` for end-to-end examples. Pretrained weights ship separately with the CIGbench release.
+See `demo/RGT-Est_demo.ipynb` and `demo/RGT-Est_horizConstra_demo.ipynb` for end-to-end examples. 
 
 ---
 
