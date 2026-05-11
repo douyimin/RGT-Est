@@ -1,4 +1,4 @@
-# RGT-Est
+<img width="2550" height="1234" alt="image" src="https://github.com/user-attachments/assets/56f8248e-5316-4181-80af-7b5d7ee849cf" /># RGT-Est
 
 **Learning Stratigraphically Consistent Relative Geologic Time from 3D Seismic Data via Sinusoidal Mapping**
 
@@ -55,7 +55,7 @@ Representative RGT estimation results on challenging field surveys. From left to
 
 The data and pretrained model weights are released through the following mirrors:
 
-- **Zenodo** (recommended for international users): <https://doi.org/10.5281/zenodo.20031941>
+- **Zenodo** (recommended for international users): <https://zenodo.org/doi/10.5281/zenodo.20118902>
 - **Baidu Netdisk** (recommended for users in China): <https://pan.baidu.com/s/1Sgk4lNUpYpWK6h2t6nnlTQ> — access code: `s3u4`
 
 Both mirrors contain identical contents, including the pretrained checkpoint `RGT-Est_CIG-Benchmark.pt` referenced in the inference snippet below.
