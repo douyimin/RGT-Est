@@ -12,21 +12,12 @@ Released as the RGT-estimation entry of **CIGbench**.
 
 Relative Geologic Time (RGT) estimation from seismic data underpins subsurface structural modeling, depositional analysis, and reservoir characterization. Accurate RGT estimation remains challenging because RGT is a topologically constrained continuous field — local errors readily propagate globally through topological coupling and distort the overall result. Conventional methods rely heavily on prior information and manual interaction, while existing deep-learning approaches predominantly use MSE/MAE regression, which struggles to recover thin horizons and to capture the stratigraphic semantics of the RGT field.
 
-We propose **RGT-Est**, a deep-learning framework that transfers the optimization target from the topologically constrained continuous field into a **differentiable sinusoidal space**. This representation explicitly encodes the periodic stratigraphic semantics of RGT and alleviates the over-smoothing of fine horizons inherent in direct regression. Pointwise, perceptual, and adversarial losses are jointly imposed in this space to enforce local fidelity, inter-layer consistency, and global structural plausibility. An optional horizon-guidance module accepts sparse 2D or 3D horizons as priors.
+We propose **RGT-Est**, a deep-learning framework that transfers the optimization target from the topologically constrained continuous field into a differentiable sinusoidal space. This representation explicitly encodes the periodic stratigraphic semantics of RGT and alleviates the over-smoothing of fine horizons inherent in direct regression. Pointwise, perceptual, and adversarial losses are jointly imposed in this space to enforce local fidelity, inter-layer consistency, and global structural plausibility. An optional horizon-guidance module accepts sparse 2D or 3D horizons as priors.
 
 Trained on synthetic data and evaluated on field surveys with dense faulting, large unconformities, steeply dipping strata, folded deformations, and clinoforms, RGT-Est achieves state-of-the-art performance among AI-based methods, and attains substantially higher horizon-correlation accuracy and topological consistency when sparse priors are incorporated.
 
 ![RGT-Est framework](figures/01.jpg)
 
----
-
-## Idea
-
-Pixel-wise MSE/MAE losses treat every voxel as an independent number, so the loss is blind to *where* the error sits — an error at a thin horizon is penalized the same as an error in a homogeneous interior. The result is over-smoothed thin layers and unstable stratigraphic ordering.
-
-**RGT-Est lifts the prediction into a sinusoidal phase space before measuring the loss.** Three sinusoidal channels with linearly decreasing frequencies `(2.0, 1.0, 0.5)` encode the predicted RGT at three stratigraphic scales — the high-frequency channel resolves thin layers, the low-frequency channel anchors the large-scale framework, and together they give every RGT value a unique phase fingerprint. The same prediction error then produces a **~62× larger gradient for L1 and ~16× larger for LPIPS**, concentrated at layer boundaries rather than the depth bulk.
-
-![Gradient analysis](figures/02.jpg)
 
 ---
 
@@ -87,10 +78,11 @@ See `demo/RGT-Est_demo.ipynb` and `demo/RGT-Est_horizConstra_demo.ipynb` for end
 ## Citation
 
 ```bibtex
-@article{dou2026rgtest,
-  title  = {Learning Stratigraphically Consistent Relative Geologic Time from 3D Seismic Data via Sinusoidal Mapping},
-  author = {Dou, Yimin and Wu, Xinming and Gao, Hui and Bi, Zhengfa},
-  year   = {2026}
+@article{dou2026learning,
+  title={Learning Stratigraphically Consistent Relative Geologic Time from 3D Seismic Data via Sinusoidal Mapping},
+  author={Dou, Yimin and Wu, Xinming and Gao, Hui and Bi, Zhengfa},
+  journal={arXiv preprint arXiv:2605.01273},
+  year={2026}
 }
 ```
 
