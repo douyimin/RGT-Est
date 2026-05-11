@@ -32,7 +32,13 @@ Trained on synthetic data and evaluated on field surveys with dense faulting, la
 4. **Systematic multi-scenario generalization evaluation.** We evaluate RGT-Est on multiple structurally complex field seismic datasets covering unconformities, densely faulted systems, steeply dipping structures, and strong structural superposition, substantially outperforming publicly available AI-based RGT estimation methods.
 
 ![Comparison with voxel-space regression](figures/03.jpg)
+
+---
+
 ![Horizon-guided RGT](figures/04.jpg)
+
+---
+
 ![Challenging field surveys](figures/05.jpg)
 
 ---
