@@ -1,4 +1,4 @@
-<img width="2550" height="1234" alt="image" src="https://github.com/user-attachments/assets/56f8248e-5316-4181-80af-7b5d7ee849cf" /># RGT-Est
+# RGT-Est
 
 **Learning Stratigraphically Consistent Relative Geologic Time from 3D Seismic Data via Sinusoidal Mapping**
 
