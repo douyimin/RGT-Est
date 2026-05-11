@@ -60,7 +60,7 @@ The data and pretrained model weights are released through the following mirrors
 
 Both mirrors contain identical contents, including the pretrained checkpoint `RGT-Est_CIG-Benchmark.pt` referenced in the inference snippet below.
 
---
+---
 
 Quick inference:
 
