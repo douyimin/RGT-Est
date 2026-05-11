@@ -92,4 +92,4 @@ See `demo/RGT-Est_demo.ipynb` and `demo/RGT-Est_horizConstra_demo.ipynb` for end
 
 Correspondence: Xinming Wu — `xinmwu@ustc.edu.cn`.
 
-Released under CC BY 4.0.
+
