@@ -74,6 +74,3 @@ class LinearDecayPositionEmbedding(nn.Module):
             else:
                 pos_embedding[:, c] = torch.cos(angles)
         return pos_embedding
-
-
--
