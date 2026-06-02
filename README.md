@@ -35,17 +35,17 @@ Trained on synthetic data and evaluated on field surveys with dense faulting, la
 
 ---
 
-![Horizon-guided RGT](figures/04.jpg)
 
-Effect of stratigraphic constraints on RGT estimation. The purple lines represent the input 2D horizon constraints, which also serve as reference lines for the horizons. (a) Incorporating 2D horizon constraints into RGT-Est. The purple dashed curves denote ground-truth horizons used for visual comparison, and the yellow boxes highlight regions where the constrained result better honors the target stratigraphic geometry. (b) Incorporating sparse 3D horizon constraints into RGT-Est. The input seismic volume and 3D horizon constraints are shown on the left, while the direct inference result and the constraint-guided result are shown in the middle and on the right, respectively. Both 2D and 3D constraints significantly improve horizon alignment and spatial consistency of the estimated RGT field.
-
-
----
 
 ![Challenging field surveys](figures/05.jpg)
 
 
 Representative RGT estimation results on challenging field surveys. From left to right, each row shows the input seismic volume, the estimated RGT field, and the horizons extracted from the estimated RGT field and overlaid on the seismic volume. The six rows correspond to the Costa Rica survey, the Poseidon survey in Australia, two Netherlands surveys, and two field surveys from a region in China. These examples cover complex geological settings, including strong deformation, steeply dipping reflectors, faulted structures, multi-stage stratigraphic units, and diapiric or intrusive structures. RGT-Est produces coherent RGT fields and contours that generally follow the seismic reflectors across these challenging surveys
+
+---
+![Horizon-guided RGT](figures/04.jpg)
+
+Effect of stratigraphic constraints on RGT estimation. The purple lines represent the input 2D horizon constraints, which also serve as reference lines for the horizons. (a) Incorporating 2D horizon constraints into RGT-Est. The purple dashed curves denote ground-truth horizons used for visual comparison, and the yellow boxes highlight regions where the constrained result better honors the target stratigraphic geometry. (b) Incorporating sparse 3D horizon constraints into RGT-Est. The input seismic volume and 3D horizon constraints are shown on the left, while the direct inference result and the constraint-guided result are shown in the middle and on the right, respectively. Both 2D and 3D constraints significantly improve horizon alignment and spatial consistency of the estimated RGT field.
 
 ---
 
